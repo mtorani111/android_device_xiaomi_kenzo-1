@@ -15,10 +15,6 @@
 # limitations under the License.
 #
 
-#Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common LineageOS stuff.
